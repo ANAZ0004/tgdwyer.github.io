@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', (event) => {
+document.addEventListener('DOMContentLoaded', () => {
     const toggleDiv = document.getElementById('toggle-div')
 
     toggleDiv.style.display = document.querySelectorAll('.solutions').length > 0 ? 'flex' : 'none'
